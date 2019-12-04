@@ -1,4 +1,7 @@
 在下载所需包时，出现下载失败，并且所报出的问题是“no packages to find”， 可以尝试如下三种解决方式：
     1. 在pycharm中增加更多的源地址，增加pycharm搜索到所需包的可能
-    2. 首先，从终端进入到项目所在的虚拟环境下使用pip语句进行包的安装。如果是在anaconda的base环境下安装的包，还需要将其复制到虚拟环境下
+    2. 首先，从终端进入到项目所在的虚拟环境下使用pip语句进行包的安装。如果是在anaconda的base环境下安装的包，还需要将其复制到虚拟环境下（感觉这个更快速）
+            
+            pip install ortools -i https://pypi.tuna.tsinghua.edu.cn/simple/    #使用指定的源下载安装包ortools
+    
     3. 可以到提供方包或库的官网把它们下载到本地。在终端激活虚拟环境，cd到安装包所在路径，然后执行pip install 包名。
